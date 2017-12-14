@@ -1,0 +1,63 @@
+.modal-open
+    overflow: hidden
+.mobile-menu
+    transform: translateZ(0) translate(-100%, 0)
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 9999
+    width: 100%
+    height: 100%
+    background-color: #191e23
+    .menu-close
+        display: block
+        padding: 0
+        top: 22px
+        right: 10px
+        border: none
+        cursor: pointer
+        opacity: 0.6
+        background-color: transparent
+        position: absolute
+        width: 32px
+        height: 32px
+        transition: all 1s ease-out
+        &::before, &::after
+            border-radius: 50%
+            content: ""
+            position: absolute
+            background-color: rgb(59, 180, 188)
+        &::before
+            width: 4px
+            height: 32px
+            top: 0
+            left: 50%
+            transform: translateX(-50%) rotate(45deg)
+        &::after
+            width: 32px
+            height: 4px
+            left: 0
+            top: 50%
+            transform: translateY(-50%) rotate(45deg)
+        &:hover
+            opacity: 1
+        .menu-close__label
+            left: -99999px
+            position: absolute
+    .menu
+        width: 100%
+        line-height: 3rem
+        position: absolute
+        top: 50%
+        padding: 0
+        margin: 0
+        transform: translate(0, -50%)
+        .menu__item
+            display: block
+            text-align: center
+.fullscreen-menu
+    .mobile-menu
+        opacity: 0.97
+        transform: translateZ(0) translate(0, 0)
+        transition: all 0.7s cubic-bezier(0.63, 0.55, 0.7, -0.74) 0s
+        overflow-y: auto

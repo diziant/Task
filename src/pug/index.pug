@@ -1,0 +1,247 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        title DRIBBBLE
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="static/css/main.css")
+    body
+        div.container
+            aside.aside.aside_l
+                div.logo-box
+                    img.logo-box__item(src="static/img/logo.png" alt="logo")
+                menu.menu
+                    li.menu__item
+                        a.link.menu__item-link(href="#")
+                            i.menu__item-icon.icon.featured
+                            ="Featured"  
+                    li.menu__item
+                        a.link.menu__item-link(href="#")
+                            i.menu__item-icon.icon.shows
+                            ="Shows"
+                        ul.menu.menu-inner
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") The Daily Show
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") The Colbert Report
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") South Park
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") Tosh.0
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") Workaholics
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") Key & Peele
+                            li.menu-inner__item
+                                a.link.menu__item-link(href="#") More...
+                    li.menu__item
+                        a.link.menu__item-link.menu__item-link_active(href="#")
+                            i.menu__item-icon.icon.stand-up
+                            ="Stand-up"
+                    li.menu__item
+                        a.link.menu__item-link(href="#")
+                            i.menu__item-icon.icon.roast
+                            ="Cc Roast"
+                    li.menu__item
+                        a.link.menu__item-link(href="#")
+                            i.menu__item-icon.icon.social
+                            ="Social"
+                    li.menu__item
+                        a.link.menu__item-link(href="#")
+                            i.menu__item-icon.icon.tickets
+                            ="Tickets"
+            div.container__content
+                header.header
+                    nav.nav
+                        button.button.nav__button
+                            span.nav__label Открыть меню
+                    form.search(action="" method="get")
+                        input.search__input(name="search" placeholder="" type="search")
+                        button.button.search__button(type="submit") Поиск
+                    div.header__item.header-box
+                        a.link.header__item-link(href="#")
+                            i.header__item-icon.header-box__icon.icon.alejandro
+                            ="Alejandro"
+                        div.header__item-nav
+                            button.button.header__item-icon.header-box__icon.icon.notifications.button_active(type="button") Уведомления
+                            button.button.header__item-icon.header-box__icon.icon.collections(type="button") Коллекция
+                div.container 
+                    main.main
+                        div.banner
+                            img.banner__img(src="static/img/banner.jpg" alt="banner")
+                            div.banner__layout
+                                label.banner__label Trending Now
+                                button.button.banner__button Проиграть
+                                h1.banner__title Stephen Colbert
+                                span.banner__text Mulling a run for the Presidency
+                        div.gallery-container
+                            div.filter
+                                div.filter__box
+                                    button.button.icon.filter__icon.list В строку
+                                    button.button.icon.filter__icon.table.table_active В столбцы
+                                div.filter__sort 
+                                    select.filter__select 
+                                        option Sorted by Populpularity
+                                        option Sorted by Data
+                            div.gallery.gallery-table
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 5 videos
+                                    span.gallery__item-text.link Kevin Hart
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-2.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 10 videos
+                                    span.gallery__item-text.link Joe Rogan
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 8 videos
+                                    span.gallery__item-text.link Nick Kroll
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 5 videos
+                                    span.gallery__item-text.link Kevin Hart
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-2.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 10 videos
+                                    span.gallery__item-text.link Joe Rogan
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 8 videos
+                                    span.gallery__item-text.link Nick Kroll
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 5 videos
+                                    span.gallery__item-text.link Kevin Hart
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-2.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 10 videos
+                                    span.gallery__item-text.link Joe Rogan
+                                a.gallery__item(href="#")
+                                    div.gallery__item-box
+                                        img.gallery__item-img(src="static/img/gallery__item-1.jpg" alt="gallery-item")
+                                        div.gallery__overlay
+                                            span.gallery__overlay-name 8 videos
+                                    span.gallery__item-text.link Nick Kroll
+                    aside.aside.aside_r  
+                        div.notification
+                            header.notification__header
+                                button.notification__button(type="button")
+                                    span.notification__button-text Reply Thread
+                            div.notification__video
+                                header.notification__video-header The Daily Show
+                                img.notification__video-img(src="static/img/video.jpg" alt="gallery-item")
+                                span.notification__data 6Th february 2013
+                        div.comments 
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Pedro"
+                                    div.comments__hour 21h
+                                div.comments__text
+                                    p We hold these truth to be self-evident. That all man are created equal... under our Killer Drones
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Alejandro"
+                                    div.comments__hour 20h
+                                div.comments__text
+                                    p A little concerned about how loose the definition of engagement can be? Our government is out of control! ! You make an importnant argument!
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Alex"
+                                    div.comments__hour 10h
+                                div.comments__text
+                                    p We hold these truth to be self-evident. That all man are created equal... under our Killer Drones
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Tomas"
+                                    div.comments__hour 6h
+                                div.comments__text
+                                    p A little concerned about how loose the definition of engagement can be? Our government is out of control! ! You make an importnant argument!
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Alejandro"
+                                    div.comments__hour 4h
+                                div.comments__text
+                                    p A little concerned about how loose the definition of engagement can be? Our government is out of control! ! You make an importnant argument!
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Alex"
+                                    div.comments__hour 4h
+                                div.comments__text
+                                    p We hold these truth to be self-evident. That all man are created equal... under our Killer Drones
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Tomas"
+                                    div.comments__hour 2h
+                                div.comments__text
+                                    p A little concerned about how loose the definition of engagement can be? Our government is out of control! ! You make an importnant argument!
+                            div.comments__item
+                                header.header-box
+                                    a.comments__person.link(href="#")
+                                        i.header-box__icon.icon.alejandro
+                                        ="Alejandro"
+                                    div.comments__hour 1h
+                                div.comments__text
+                                    p A little concerned about how loose the definition of engagement can be? Our government is out of control! ! You make an importnant argument!
+        div.mobile-menu
+            button.menu-close
+                span.menu-close__label Закрыть
+            menu.menu
+                li.menu__item
+                    a.link.menu__item-link(href="#")
+                        i.menu__item-icon.icon.featured
+                        ="Featured"  
+                li.menu__item
+                    a.link.menu__item-link(href="#")
+                        i.menu__item-icon.icon.shows
+                        ="Shows"
+                li.menu__item
+                    a.link.menu__item-link.menu__item-link_active(href="#")
+                        i.menu__item-icon.icon.stand-up
+                        ="Stand-up"
+                li.menu__item
+                    a.link.menu__item-link(href="#")
+                        i.menu__item-icon.icon.roast
+                        ="Cc Roast"
+                li.menu__item
+                    a.link.menu__item-link(href="#")
+                        i.menu__item-icon.icon.social
+                        ="Social"
+                li.menu__item
+                    a.link.menu__item-link(href="#")
+                        i.menu__item-icon.icon.tickets
+                        ="Tickets"
+        div.scrollup
+            a.scrollup__link(href="#" style="display: inline;") Scroll
+        script(src="static/js/libs.min.js")
+        script(src="static/js/main.js")
+        script(src="static/js/scrollup.js")

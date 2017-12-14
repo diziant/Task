@@ -1,0 +1,78 @@
+.header
+    padding: 1rem 2rem 1rem 4.5rem
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .nav
+        display: none
+        .nav__button
+            display: block
+            width: 30px
+            height: 22px
+            position: relative
+            &:hover
+                opacity: 1
+            &::before, &::after
+                content: ""
+                position: absolute
+                box-shadow: 0 2px 2px 0 rgba(0,0,0, .14), 0 1px 5px 0 rgba(0,0,0, .12), 0 3px 1px -2px rgba(0,0,0, .2)
+                background-color: #3bb4bc
+                width: 24px
+                border-radius: 5px
+                height: 4px
+                left: 0
+            &::before
+                top: 0
+            &::after
+                bottom: 0
+            .nav__label
+                width: 29px
+                height: 4px
+                position: absolute
+                top: 50%
+                left: 0
+                margin-top: -2px
+                background-color: #3bb4bc
+                box-shadow: 0 2px 2px 0 rgba(0,0,0, .14), 0 1px 5px 0 rgba(0,0,0, .12), 0 3px 1px -2px rgba(0,0,0, .2)
+                border-radius: 5px
+    .search
+        position: relative
+        width: 25%
+        .search__input
+            width: 100%
+            border: 0.1rem solid #e5e5e5
+            border-radius: 2rem
+            padding: 0.7rem 2.5rem 0.7rem 1rem
+        .search__button
+            position: absolute
+            width: 25px
+            height: 20px
+            top: 50%
+            transform: translateY(-50%)
+            background: none
+            background-image: url("")
+            right: 0.5rem
+            &:hover
+                opacity: 1
+    .header__item
+        .header__item-icon
+            &:hover
+                opacity: 1
+        .header__item-link
+            color: #aeaeae
+            padding-right: 2rem
+            border-right: 2px solid #ebebeb
+        .header__item-nav
+            padding-left: 2rem
+            .button_active
+                opacity: 1
+            .header__item-icon
+                &:last-child
+                    margin-right: 0
+.header-box
+    display: flex
+    justify-content: space-between
+    .header-box__icon
+        margin-right: 2rem
+        width: 29px
+        height: 28px

@@ -1,0 +1,54 @@
+html
+    font-size: 62.5%
+body
+    margin: 0
+    font-family: 'Brandon Grotesque', 'MinionPro', sans-serif
+    font-size: 1.6rem
+h1
+    margin: 0
+.button
+    background-color: #fff
+    padding: 0
+    cursor: pointer
+    border: none
+    text-indent: -9999px
+    opacity: 0.51
+    transition: all 1s ease-out
+.link
+    opacity: 0.41
+    text-decoration: none
+    transition: all 1s ease-out
+    &:hover
+        opacity: 1
+.container
+    display: flex
+    .aside
+        background-color: #191e23
+    .container__content
+        width: 84%
+.scrollup__link
+    position: fixed
+    right: 25px
+    bottom: 25px
+    cursor: pointer
+    opacity: 0.6
+    width: 50px
+    height: 50px
+    background-color: rgb(59, 180, 188)
+    text-indent: -9999px
+    display: none
+    border-radius: 8px
+    &::before
+        position: absolute
+        content: ""
+        top: 50%
+        left: 50%
+        margin-left: -8px
+        margin-top: -12px
+        height: 0
+        width: 0
+        border: 8px solid transparent
+        border-bottom-color: #ffffff
+    &:hover
+        opacity: 1
+        transition: opacity .3s cubic-bezier(1, 0.6, 0, 0.46)

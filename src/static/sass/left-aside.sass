@@ -1,0 +1,44 @@
+.aside_l
+    width: 16%
+    .logo-box
+        display: flex
+        justify-content: center
+        background-color: #0e1214
+        border-top: 0.8rem solid #3bb4bc
+        .logo-box__item
+            padding: 2rem 0
+    .menu
+        list-style: none
+        margin: 0
+        padding: 0
+        .menu__item
+            border-bottom: 0.1rem solid #13171b
+            .menu__item-link
+                display: block
+                color: #bdd5ed
+                font-size: 1.3rem
+                text-transform: uppercase
+                padding: 2rem 3rem
+                font-weight: bold
+                .menu__item-icon
+                    width: 2.5rem
+                    height: 2rem
+                    margin-right: 1rem
+            &:last-child
+                border-bottom: none
+            &:active
+                background-color: #3bb4bc
+                box-shadow: inset 0.5rem 0 0 #329ea5
+                opacity: 1
+                color: #fff
+            .menu__item-link_active
+                background-color: #3bb4bc
+                box-shadow: inset 0.5rem 0 0 #329ea5
+                opacity: 1
+                color: #fff
+    .menu-inner
+        background-color: #0e1214
+        .menu-inner__item
+            border-bottom: 0.1rem solid #090b0d
+            &:last-child
+                border-bottom: none
